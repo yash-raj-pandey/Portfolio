@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.section1 {
+  border-right: 1.5px solid#212121;
+  width: 220px;
+}
+.section2 {
+  /* background-color: aqua; */
+  width: calc(100% - 640px);
+  padding: 20px 80px 120px 130px;
+  margin-bottom: 100px;
+}
+.section3 {
+  /* background-color: aquamarine; */
+  width: 420px;
+}
+.logo {
+  height: 28px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.side-text {
+  padding: 10px;
+  margin-left: 15px;
+  list-style: none;
+}
+.side-text li {
+  padding: 17px 0;
+}
+.side-text li span {
+  margin-left: 10px;
+}
+.storyicon {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  border: 3px solid red;
+  /* background-image: url("https://saviojewellery.wordpress.com/wp-content/uploads/2017/11/earrings-for-square-face.jpg?w=584"); */
+  background-position: center;
+  background-size: cover;
+}
+
+.story-item:nth-child(1) .storyicon {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/anupama-parameswaran-indian-actress-south-actress-beautiful-2048x2048-7642.jpg");
+}
+.story-item:nth-child(2) .storyicon {
+  background-image: url("https://saviojewellery.wordpress.com/wp-content/uploads/2017/11/earrings-for-heart-face.jpg?w=584");
+}
+.story-item:nth-child(3) .storyicon {
+  background-image: url("https://saviojewellery.wordpress.com/wp-content/uploads/2017/11/earrings-for-square-face.jpg?w=584");
+}
+.story-item:nth-child(4) .storyicon {
+  background-image: url("https://kalingatv.com/wp-content/uploads/2022/01/kajol.jpg");
+}
+.story-item:nth-child(5) .storyicon {
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-91d02a2e444a9917dea4d370cfff228d-lq");
+}
+.story-item:nth-child(6) .storyicon {
+  background-image: url("https://i.pinimg.com/736x/1c/dc/49/1cdc499e460d0d84e969867a118efae4.jpg");
+}
+.story-item:nth-child(7) .storyicon {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNTk1OTUxMzIzMV5BMl5BanBnXkFtZTcwMzMxMjI0Nw@@._V1_.jpg");
+}
+.story-item:nth-child(8) .storyicon {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyR8Pn4mgIX094knkXV36arxRd7Won4Pdobg&s");
+}
+.story-item:nth-child(9) .storyicon {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ4e9S_g2BBamAZ-nLPTFWbdecJwA8NKv9XA&s");
+}
+.story-item:nth-child(10) .storyicon {
+  background-image: url("https://www.byrdie.com/thmb/3AcLpbdH_egtCXtmnBXudCbwPW8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/robertpattinson-5f48d2e0ab494a61b2590ff2e72fc79f.jpg");
+}
+.story-container {
+  display: flex;
+  max-width: 420px;
+  overflow-x: auto;
+}
+.story-item .username {
+  font-size: 12px;
+  max-width: 53px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.story-item {
+  margin-right: 15px;
+}
+.story-item div {
+  text-align: center;
+}
+.post-container {
+  margin-top: 50px;
+}
+.post-item {
+  width: 400px;
+  /* height: 500px; */
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid #212121;
+  margin-bottom: 30px;
+}
+.postpng {
+  height: 30px;
+  width: 30px;
+  border-radius: 40%;
+  border: 3px solid red;
+}
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+.post-header .left {
+  display: flex;
+}
+.postheader-name {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.right {
+  padding-right: 10px;
+}
+.post-content {
+  margin-top: 5px;
+  border: 1.5px solid #212121;
+  text-align: center;
+}
+.post-content video {
+  max-height: 530px;
+}
+.footer-actions .left {
+  display: flex;
+  margin-left: -12px;
+}
+.footer-actions .left div {
+  padding-left: 18px;
+}
+.footer-actions .fa {
+  font-size: 18px;
+}
+.footer-actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.textdown {
+  font-size: 13px;
+}
+.comment-container {
+  margin-top: 3px;
+}
+.comment-container input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.comment-container input::placeholder {
+  color: #ddd;
+}
+.righticon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.user-item .left {
+  display: flex;
+  align-items: center;
+}
+.user-item .left span {
+  font-size: 14px;
+}
+.right-container {
+  margin-top: 50px;
+  width: 280px;
+}
+.nameyash {
+  color: #7c7c7c;
+  font-size: 15px;
+}
+.name-container {
+  margin-left: 8px;
+}
+.user-item .right a {
+  color: #0081d6;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.suggestions {
+  margin-top: 40px;
+}
+.suggestions .header {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestions .header div {
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.suggestions h5 {
+  color: #aaa;
+  font-weight: 600;
+}
+.followed-by {
+  font-size: 12px;
+  color: #aaa;
+}
