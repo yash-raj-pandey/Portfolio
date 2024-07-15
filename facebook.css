@@ -5,22 +5,26 @@
 }
 body {
   background-color: rgb(240, 242, 245);
+  font-family: Helvetica, Arial, sans-serif;
 }
 .mainboard {
   /* background-color: aqua; */
   width: 80%;
   margin-left: 250px;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-around;
+}
+.section-left {
+  margin-top: -50px;
 }
 .main-image {
   height: 70px;
 }
 
 .textbox {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .login {
   font-size: 35px;
@@ -29,25 +33,33 @@ body {
 
 .addaccount {
   font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
 }
 .main-photo {
   height: 180px;
-  margin-top: 30px;
-  margin-left: 30px;
 }
 .yash {
-  font-size: 22px;
-  margin-left: 70px;
+  font-size: 18px;
+  /* margin-left: 70px; */
+  color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
 }
 .logindetail {
   display: flex;
 }
 .loginshortcut {
-  border: 20px;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: fit-content;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .login-card {
   background-color: white;
-  height: 456px;
+  /* height: 456px; */
   width: 396px;
   border-radius: 20px;
 
@@ -67,13 +79,20 @@ body {
   width: 100%;
   height: 50px;
   padding-left: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
+.login-item input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .login-item button {
   width: 100%;
   height: 50px;
   background-color: #0866ff;
   color: white;
-  font-size: 28px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .forgotten-container {
@@ -81,16 +100,25 @@ body {
 }
 
 .login-card form {
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 20px;
 }
 .new-account {
   text-align: center;
+  margin-top: 20px;
+}
+.new-account button {
   background-color: #42b72a;
-  width: 40%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
   color: white;
   text-size-adjust: 28px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+button {
+  border: none;
+  border-radius: 5px;
 }
