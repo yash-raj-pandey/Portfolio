@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.top-bar {
+  max-width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-bottom: solid #dce0e6;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sens {
+  margin-top: 5px;
+}
+.logo {
+  height: 30px;
+}
+.top-right {
+  display: flex;
+}
+.top-center {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-center div {
+  margin: 0 20px;
+}
+.top-left {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: #79d3de;
+  border-radius: 20px;
+}
+.top-left div {
+  margin-top: 7px;
+  margin-left: 8px;
+}
+.box {
+  background-color: #f4f4f4;
+  /* height: 100vh; */
+  padding-bottom: 200px;
+}
+.content-box {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start;    */
+}
+.heading {
+  font-size: 25px;
+  padding-top: 40px;
+}
+.sec-line {
+  margin-top: 30px;
+}
+.live-position {
+  height: 130px;
+  width: 275px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.boxx {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.top-center .ti {
+  font-size: 12px;
+}
+.profile {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #ccd6dd;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+.profile i {
+  font-size: 30px;
+  margin-left: 5px;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+}
+.username {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-left: 8px;
+}
+.amount {
+  color: green;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.ratio {
+  display: flex;
+}
+.ratio span {
+  color: #79818f;
+  font-size: 15px;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.live {
+  width: 22px;
+  height: 15px;
+  background-color: #c22e00;
+  border-radius: 5px;
+  color: white;
+  margin-left: 25px;
+  margin-top: -10px;
+}
+.live div {
+  font-size: 12px;
+  margin-left: 3px;
+}
+.sec-line {
+  margin-top: 50px;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.dot div {
+  height: 15px;
+  width: 15px;
+  background-color: #6f7786;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+.action-container {
+  width: 1220px;
+
+  background-color: #f4f4f4;
+  margin-left: 156px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  background-color: #f4f4f4;
+}
+.card {
+  height: 172px;
+  width: 288px;
+  background-color: #ffffff;
+}
+.svg {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.one {
+  display: flex;
+}
+.one div {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.two {
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: 10px;
+  color: #7b8390;
+}
+.button button {
+  width: 256px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: #ffffff;
+}
+.action-right {
+  width: 306px;
+  height: 117px;
+  background-color: #f5f9ff;
+  border-radius: 5px;
+  display: flex;
+}
+.action-right img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.market {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #636d7d;
+}
+.action-right h6 {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+}
